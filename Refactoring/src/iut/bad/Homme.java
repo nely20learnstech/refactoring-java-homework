@@ -1,13 +1,8 @@
 package iut.bad;
 
-public class Homme {
-	private String nom;
-	private String prenom;
-	private int age;
+public class Homme extends Humain{
 	
-	public Homme (String lastname, String firstname, int hisAge) {
-		nom = lastname;
-		prenom = firstname;
-		age = hisAge;	
+	public Homme (String nom, String prenom, int age) {
+		super(nom, prenom, age);	
 	}
 }
