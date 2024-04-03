@@ -40,10 +40,6 @@ public class Humain {
 		System.out.println("Son nom est" + getNom() + " " + getPrenom()+ ".\n" + "Age :" + getAge()+ ".");
 	}
 	
-	@Override
-	public String toString() 
-	{
-		return "Son nom est" + getNom() + " " + getPrenom()+ ".\n" + "Age :" + getAge()+ ".";
-	}
+	
 	
 }
