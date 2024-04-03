@@ -8,6 +8,15 @@ public class Femme extends Humain {
 
 	@Override
 	public String toString() {
-		return "Son nom est" + getNom() + " " + getPrenom()+ ".\n" + "Age :" + getAge()+ ".";
+		return "Mon nom est " + getNom() + " " + getPrenom()+ ".\n" + "J'ai " + getAge()+ ".";
+	}
+	
+	public static void main(String[] args)
+	{
+		Homme homme = new Homme("Dupont", "Jeannot", 23);
+		Femme femme = new Femme("Marie", "Thérèse", 18);
+		
+		homme.ami(femme);
+		femme.ami(homme);
 	}
 }
