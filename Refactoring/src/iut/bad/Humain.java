@@ -34,4 +34,16 @@ public class Humain {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
+	public void details()
+	{
+		System.out.println("Son nom est" + getNom() + " " + getPrenom()+ ".\n" + "Age :" + getAge()+ ".");
+	}
+	
+	@Override
+	public String toString() 
+	{
+		return "Son nom est" + getNom() + " " + getPrenom()+ ".\n" + "Age :" + getAge()+ ".";
+	}
+	
 }
