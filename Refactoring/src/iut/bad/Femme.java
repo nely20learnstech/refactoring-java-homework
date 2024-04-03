@@ -16,7 +16,7 @@ public class Femme extends Humain {
 		Homme homme = new Homme("Dupont", "Jeannot", 23);
 		Femme femme = new Femme("Marie", "Thérèse", 18);
 		
-		homme.ami(femme);
+		homme.ami(femme, 10);
 		femme.ami(homme);
 	}
 }

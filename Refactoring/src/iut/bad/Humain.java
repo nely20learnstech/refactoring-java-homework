@@ -52,9 +52,9 @@ public class Humain implements Consommation {
 		System.out.println("Je bois.");
 	}
 	
-	public void ami(Humain autre)
+	public void ami(Humain autre, int dureeAmitie=100)
 	{
-		System.out.println("Moi "+ this.nom + ",je suis ami avec " + autre.getNom());
+		System.out.println("Moi "+ this.nom + ",je suis ami avec " + autre.getNom() + " depuis " + dureeAmitie + " jours");
 	}
 	
 	
